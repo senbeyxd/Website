@@ -137,8 +137,6 @@ document.addEventListener("DOMContentLoaded", function () {
         videoStarted = true;
 
         playVideo(doesVideoExist ? paramValue : video, false, true);
-
-        // ¹ It checks for "special" URLs because they have a higher priority than the cookie video.
       },
       m: function () {
         if (paramValue == "false") muter();
@@ -158,6 +156,8 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     if (param != "s" && paramHandler[param]) paramHandler[param]();
+
+    // ¹ It checks for "special" URLs because they have a higher priority than the cookie video.
   });
 
   /************************************************************************************************\

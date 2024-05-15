@@ -333,7 +333,7 @@ async function popup(text, time = 2000, other = false) {
     },
   };
 
-  // This queue check checks if the called popup can be displayed. If not, it will either be returned or pushed in the queue.
+  // This check checks if the called popup can be displayed. If not, it will either be returned or pushed in the queue.
 
   if (
     popupVisible == "cookiePopup" ||
@@ -537,7 +537,7 @@ function clickManager(func, skipToPoint) {
 *                                         PATH FUNCTION                                          *
 \************************************************************************************************/
 
-// This function generates the path to the given folder. I really don't know what I did there, but it works.
+// This function generates the path to the given folder. (I guess?)
 
 function pathGen(folder) {
   return document.getElementsByClassName("404")[0]
@@ -702,7 +702,7 @@ async function playVideo(
 
   video = vid;
 
-  // Because Safari is trash, I have to put autplay on false.
+  // Because Safari is trash, I have to put autoplay on false.
 
   if (pageLoad && apple) videoE.autoplay = false;
 

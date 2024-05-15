@@ -42,6 +42,21 @@ var videos = [
     artists: ["$uicideboy$", "Shakewell"],
   },
   {
+    path: "i-dream-of-chrome",
+    name: "I Dream of Chrome",
+    artists: ["$uicideboy$", "Germ"],
+  },
+  {
+    path: "sorry-for-the-delay",
+    name: "Sorry for the Delay",
+    artists: ["$uicideboy$", "Germ"],
+  },
+  {
+    path: "to-have-and-have-not",
+    name: "To Have and Have Not",
+    artists: ["$uicideboy$"],
+  },
+  {
     path: "kein-pflaster",
     name: "Kein Pflaster",
     artists: ["GlenGang 030", "Joey99", "ODG"],
